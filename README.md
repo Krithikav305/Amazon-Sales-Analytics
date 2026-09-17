@@ -140,12 +140,12 @@ Missing shipping location handling
 Referential matching between fact and dimension tables
 
 The current MySQL analytical database contains 83,935 loaded sales records.
+
 Project Structure
 Amazon-Sales-Analytics/
 │
 ├── data/
 │   ├── raw/
-│   │   └── .gitkeep
 │   └── processed/
 │
 ├── docs/
