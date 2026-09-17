@@ -1,46 +1,31 @@
-# Amazon Sales Analytics
+Amazon Sales Analytics
 
-An end-to-end data analytics project demonstrating data cleaning, ETL development, dimensional data modelling, SQL analysis, and interactive Power BI dashboard development.
+An end-to-end data analytics project demonstrating data cleaning, ETL development, dimensional data modelling, SQL analysis, and Power BI dashboard development.
 
----
-
-## Overview
+Overview
 
 This project transforms raw Amazon sales data into a structured analytical solution using Python, MySQL, SQL, and Power BI.
 
-The workflow covers data extraction, data cleaning, ETL processing, relational database design, dimensional data modelling, analytical SQL queries, and interactive business intelligence reporting.
+The workflow covers data extraction and cleaning, ETL processing, relational database design, dimensional data modelling, analytical SQL queries, and interactive business intelligence reporting.
 
----
-
-## Project Objectives
-
-- Clean and transform raw sales data using Python and Pandas
-- Develop an ETL pipeline for data preparation
-- Build a relational analytical database using MySQL
-- Design a dimensional data model using fact and dimension tables
-- Perform business analysis using SQL
-- Develop an interactive Power BI dashboard
-- Demonstrate practical data engineering and business intelligence skills
-
----
-
-## Technology Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Python | Data cleaning and ETL |
-| Pandas | Data manipulation and transformation |
-| MySQL | Relational database and data modelling |
-| SQL | Analytical queries |
-| Power BI | Interactive dashboard and visualization |
-| Git & GitHub | Version control and project management |
-| CSV | Source data format |
-
----
-
-## Project Architecture
-
-```text
+Project Objectives
+Clean and transform raw sales data using Python and Pandas
+Develop an ETL pipeline for data preparation
+Build a relational analytical database using MySQL
+Design a dimensional data model using fact and dimension tables
+Perform business analysis using SQL
+Develop an interactive Power BI dashboard
+Demonstrate practical data engineering and business intelligence skills
+Technology Stack
+Technology	Purpose
+Python	Data cleaning and ETL
+Pandas	Data manipulation and transformation
+MySQL	Relational database and data modelling
+SQL	Analytical queries
+Power BI	Interactive dashboard and visualization
+Git & GitHub	Version control and project management
+CSV	Source data format
+Project Architecture
 Raw Amazon Sales CSV
         |
         v
@@ -67,7 +52,7 @@ Dimension Tables          Fact Sales
                    |
                    v
            Power BI Dashboard
-## Data Pipeline
+Data Pipeline
 1. Data Extraction
 
 The raw Amazon sales dataset is loaded from CSV format using Python and Pandas.
@@ -204,6 +189,7 @@ Load the cleaned data into the MySQL staging table and populate the dimension an
 The analytical queries are available in:
 
 sql/analysis.sql
+
 7. Open the Power BI Dashboard
 
 Open:
@@ -231,8 +217,9 @@ The project uses a publicly available Amazon sales dataset for educational and p
 
 The raw CSV file is excluded from Git version control because of its file size.
 
-
+Author
 
 Krithika Veera Perumal
+
 M.Sc. Data Science
 Friedrich-Alexander-Universität Erlangen-Nürnberg
