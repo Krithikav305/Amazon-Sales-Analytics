@@ -1,6 +1,6 @@
 # Amazon Sales Analytics
 
-An end-to-end data analytics project demonstrating data cleaning, ETL development, dimensional data modelling, SQL analysis, and Power BI dashboard development.
+An end-to-end data analytics project demonstrating data cleaning, ETL development, dimensional data modelling, SQL analysis, and interactive Power BI dashboard development.
 
 ---
 
@@ -8,7 +8,9 @@ An end-to-end data analytics project demonstrating data cleaning, ETL developmen
 
 This project transforms raw Amazon sales data into a structured analytical solution using Python, MySQL, SQL, and Power BI.
 
-The workflow covers data extraction and cleaning, database modelling, analytical SQL queries, and interactive business intelligence reporting.
+The workflow covers data extraction, data cleaning, ETL processing, relational database design, dimensional data modelling, analytical SQL queries, and interactive business intelligence reporting.
+
+---
 
 ## Project Objectives
 
@@ -19,6 +21,8 @@ The workflow covers data extraction and cleaning, database modelling, analytical
 - Perform business analysis using SQL
 - Develop an interactive Power BI dashboard
 - Demonstrate practical data engineering and business intelligence skills
+
+---
 
 ## Technology Stack
 
@@ -63,8 +67,7 @@ Dimension Tables          Fact Sales
                    |
                    v
            Power BI Dashboard
-
-        Data Pipeline
+Data Pipeline
 1. Data Extraction
 
 The raw Amazon sales dataset is loaded from CSV format using Python and Pandas.
@@ -101,7 +104,7 @@ dim_customer  ──── 1 : many ──── fact_sales
 dim_product   ──── 1 : many ──── fact_sales
 dim_date      ──── 1 : many ──── fact_sales
 Data Model
-<img src="docs/data_model.png" alt="Amazon Sales Data Model" width="95%">
+<img src="./docs/data_model.png" alt="Amazon Sales Data Model" width="95%">
 SQL Analysis
 
 SQL queries are used to analyse sales performance from multiple business perspectives.
@@ -134,7 +137,7 @@ Revenue by Fulfilment
 Year-based filtering
 Category filtering
 Dashboard Preview
-<img src="docs/dashboard.png" alt="Amazon Sales Analytics Dashboard" width="95%">
+<img src="./docs/dashboard.png" alt="Amazon Sales Analytics Dashboard" width="95%">
 Data Quality
 
 The raw dataset contains 128,975 records and 22 columns.
@@ -178,35 +181,37 @@ Amazon-Sales-Analytics/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-
 How to Run
-
 1. Clone the Repository
 git clone https://github.com/Krithikav305/Amazon-Sales-Analytics.git
 cd Amazon-Sales-Analytics
-
 2. Install Python Dependencies
 pip install -r requirements.txt
-
 3. Run Data Exploration
 python python/explore_data.py
-
 4. Run the ETL Pipeline
 python python/etl_pipeline.py
-
 5. Set Up MySQL
+
 Create the database and tables using:
+
 sql/schema.sql
+
 Load the cleaned data into the MySQL staging table and populate the dimension and fact tables.
 
 6. Run SQL Analysis
-The analytical queries are available in:
-sql/analysis.sql
 
+The analytical queries are available in:
+
+sql/analysis.sql
 7. Open the Power BI Dashboard
+
 Open:
+
 powerbi/amazon_sales_dashboard.pbix
+
 The dashboard connects to the MySQL analytical database.
+
 Skills Demonstrated
 Data Cleaning
 ETL Development
