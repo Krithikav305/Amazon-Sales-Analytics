@@ -1,33 +1,26 @@
-# Amazon Sales Analytics
-
-## Overview
+Amazon Sales Analytics
+Overview
 
 Amazon Sales Analytics is an end-to-end data analytics project built to demonstrate practical skills in data engineering, data modelling, SQL analysis, and business intelligence.
 
 The project transforms raw Amazon sales data into a structured analytical database and an interactive Power BI dashboard.
 
-## Project Objectives
-
-- Clean and transform raw sales data using Python
-- Build a relational database using MySQL
-- Design a dimensional data model using fact and dimension tables
-- Perform analytical queries using SQL
-- Create an interactive Power BI dashboard
-- Extract business insights from sales, products, fulfilment, and shipping locations
-
-## Technologies Used
-
-- Python
-- Pandas
-- MySQL
-- SQL
-- Power BI
-- Git & GitHub
-- CSV
-
-## Project Architecture
-
-```text
+Project Objectives
+Clean and transform raw sales data using Python
+Build a relational database using MySQL
+Design a dimensional data model using fact and dimension tables
+Perform analytical queries using SQL
+Create an interactive Power BI dashboard
+Extract business insights from sales, products, fulfilment, and shipping locations
+Technologies Used
+Python
+Pandas
+MySQL
+SQL
+Power BI
+Git & GitHub
+CSV
+Project Architecture
 Raw Amazon Sales CSV
         |
         v
@@ -91,7 +84,7 @@ dim_customer  ──── 1 : many ──── fact_sales
 dim_product   ──── 1 : many ──── fact_sales
 dim_date      ──── 1 : many ──── fact_sales
 Data Model
-
+<img src="docs/data_model.png" alt="Amazon Sales Data Model" width="100%">
 SQL Analysis
 
 SQL queries are used to analyse the sales data from multiple business perspectives.
@@ -125,7 +118,7 @@ Category slicer
 The dashboard is connected to the MySQL dimensional database and allows users to interactively explore sales performance.
 
 Dashboard Preview
-
+<img src="docs/dashboard.png" alt="Amazon Sales Analytics Dashboard" width="100%">
 Data Quality
 
 The raw dataset contains 128,975 records and 22 columns.
