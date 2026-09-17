@@ -140,12 +140,12 @@ Missing shipping location handling
 Referential matching between fact and dimension tables
 
 The current MySQL analytical database contains 83,935 loaded sales records.
-
 Project Structure
 Amazon-Sales-Analytics/
 │
 ├── data/
 │   ├── raw/
+│   │   └── .gitkeep
 │   └── processed/
 │
 ├── docs/
@@ -217,9 +217,8 @@ The project uses a publicly available Amazon sales dataset for educational and p
 
 The raw CSV file is excluded from Git version control because of its file size.
 
-Author
+
 
 Krithika Veera Perumal
-
 M.Sc. Data Science
 Friedrich-Alexander-Universität Erlangen-Nürnberg
