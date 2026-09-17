@@ -67,7 +67,7 @@ Dimension Tables          Fact Sales
                    |
                    v
            Power BI Dashboard
-Data Pipeline
+## Data Pipeline
 1. Data Extraction
 
 The raw Amazon sales dataset is loaded from CSV format using Python and Pandas.
