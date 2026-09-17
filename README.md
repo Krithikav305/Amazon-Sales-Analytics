@@ -1,31 +1,38 @@
-Amazon Sales Analytics
+# Amazon Sales Analytics
 
 An end-to-end data analytics project demonstrating data cleaning, ETL development, dimensional data modelling, SQL analysis, and Power BI dashboard development.
 
-Overview
+## Overview
 
 This project transforms raw Amazon sales data into a structured analytical solution using Python, MySQL, SQL, and Power BI.
 
 The workflow covers data extraction and cleaning, ETL processing, relational database design, dimensional data modelling, analytical SQL queries, and interactive business intelligence reporting.
 
-Project Objectives
-Clean and transform raw sales data using Python and Pandas
-Develop an ETL pipeline for data preparation
-Build a relational analytical database using MySQL
-Design a dimensional data model using fact and dimension tables
-Perform business analysis using SQL
-Develop an interactive Power BI dashboard
-Demonstrate practical data engineering and business intelligence skills
-Technology Stack
-Technology	Purpose
-Python	Data cleaning and ETL
-Pandas	Data manipulation and transformation
-MySQL	Relational database and data modelling
-SQL	Analytical queries
-Power BI	Interactive dashboard and visualization
-Git & GitHub	Version control and project management
-CSV	Source data format
-Project Architecture
+## Project Objectives
+
+- Clean and transform raw sales data using Python and Pandas
+- Develop an ETL pipeline for data preparation
+- Build a relational analytical database using MySQL
+- Design a dimensional data model using fact and dimension tables
+- Perform business analysis using SQL
+- Develop an interactive Power BI dashboard
+- Demonstrate practical data engineering and business intelligence skills
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Data cleaning and ETL |
+| Pandas | Data manipulation and transformation |
+| MySQL | Relational database and data modelling |
+| SQL | Analytical queries |
+| Power BI | Interactive dashboard and visualization |
+| Git & GitHub | Version control and project management |
+| CSV | Source data format |
+
+## Project Architecture
+
+```text
 Raw Amazon Sales CSV
         |
         v
@@ -142,30 +149,16 @@ Referential matching between fact and dimension tables
 The current MySQL analytical database contains 83,935 loaded sales records.
 
 Project Structure
-Amazon-Sales-Analytics/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── docs/
-│   ├── dashboard.png
-│   └── data_model.png
-│
-├── powerbi/
-│   └── amazon_sales_dashboard.pbix
-│
-├── python/
-│   ├── explore_data.py
-│   └── etl_pipeline.py
-│
-├── sql/
-│   ├── analysis.sql
-│   └── schema.sql
-│
-├── .gitignore
-├── README.md
-└── requirements.txt
+Folder / File	Description
+data/raw/	Raw source data
+data/processed/	Cleaned and transformed data
+docs/	Dashboard and data model screenshots
+powerbi/	Power BI dashboard
+python/	Python exploration and ETL scripts
+sql/	Database schema and analytical queries
+.gitignore	Git version-control configuration
+README.md	Project documentation
+requirements.txt	Python dependencies
 How to Run
 1. Clone the Repository
 git clone https://github.com/Krithikav305/Amazon-Sales-Analytics.git
